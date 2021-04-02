@@ -1,0 +1,10 @@
+[Unit]
+Description=LogMeIn Hamachi daemon (nix)
+After=local-fs.target network.target
+
+[Service]
+ExecStart=/nix/var/nix/profiles/default/bin/hamachid
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
