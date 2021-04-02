@@ -1,4 +1,4 @@
-# Maintainer: second2050 (karui@waifu.club)
+# Maintainer: second2050 (karui [at] waifu [dot] club)
 
 pkgname=logmein-hamachi-nix-companion
 _pkgname=logmein-hamachi
